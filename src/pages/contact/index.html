@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- 引入公共页头 -->
+  <%= require("html-loader!../common/header/index.html") %>
+  <h1 class="page-title">Contact</h1>
+  <form action="" class="form-container">
+    <div class="inp">
+      <label for="">Name<i>*</i></label>
+      <input type="text" placeholder="Please type in your name">
+    </div>
+    <div class="inp">
+      <label for="">Email<i>*</i></label>
+      <input type="text" placeholder="Please type in your email">
+    </div>
+    <div class="textarea">
+      <label for="">Message<i>*</i></label>
+      <textarea placeholder="Please type in message"></textarea>
+    </div>
+    <button type="submit" class="submit">SEND</button>
+  </form>
+  
+  <!-- 引入公共页尾 -->
+  <%= require("html-loader!../common/footer/index.html") %>
+</body>
+
+</html>

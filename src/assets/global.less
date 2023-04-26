@@ -1,0 +1,25 @@
+@import "./font-awesome.min.css";
+@import url(//at.alicdn.com/t/c/font_3609914_jn7su635gz.css);
+.flex(@justify-content:center, @align-items:center){
+  display: flex;
+  justify-content: @justify-content;
+  align-items: @align-items;
+}
+.max-center{
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.bg-img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  object-fit: cover;
+  object-position: center;
+  z-index: -1;
+}
+
+
+@mainColor:#cb932d;

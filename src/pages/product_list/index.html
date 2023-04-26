@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- 引入公共页头 -->
+  <%= require("html-loader!../common/header/index.html") %>
+    <h1 class="page-title">Cookware</h1>
+    <section class="product-container">
+      <ul class="product-list">
+        <li class="product-item">
+          <div class="img">
+            <img src="/public/images/product-cate.jpg" alt="">
+          </div>
+          <div class="text">
+            <div class="title">铁锅系列</div>
+            <div class="desc">这里是系列的简介信息，这里是系列的简介信息，这里是系列的简介信息，这里是系列的简介</div>
+          </div>
+          <a href="product_view.html" class="more">SHOW MORE</a>
+        </li>
+        <li class="product-item">
+          <div class="img">
+            <img src="/public/images/product-cate.jpg" alt="">
+          </div>
+          <div class="text">
+            <div class="title">铁锅系列</div>
+            <div class="desc">这里是系列的简介信息，这里是系列的简介信息，这里是系列的简介信息，这里是系列的简介</div>
+          </div>
+          <a href="product_view.html" class="more">SHOW MORE</a>
+        </li>
+        <li class="product-item">
+          <div class="img">
+            <img src="/public/images/product-cate.jpg" alt="">
+          </div>
+          <div class="text">
+            <div class="title">铁锅系列</div>
+            <div class="desc">这里是系列的简介信息，这里是系列的简介信息，这里是系列的简介信息，这里是系列的简介</div>
+          </div>
+          <a href="product_view.html" class="more">SHOW MORE</a>
+        </li>
+        <li class="product-item">
+          <div class="img">
+            <img src="/public/images/product-cate.jpg" alt="">
+          </div>
+          <div class="text">
+            <div class="title">铁锅系列</div>
+            <div class="desc">这里是系列的简介信息，这里是系列的简介信息，这里是系列的简介信息，这里是系列的简介</div>
+          </div>
+          <a href="product_view.html" class="more">SHOW MORE</a>
+        </li>
+        <li class="product-item">
+          <div class="img">
+            <img src="/public/images/product-cate.jpg" alt="">
+          </div>
+          <div class="text">
+            <div class="title">铁锅系列</div>
+            <div class="desc">这里是系列的简介信息，这里是系列的简介信息，这里是系列的简介信息，这里是系列的简介</div>
+          </div>
+          <a href="product_view.html" class="more">SHOW MORE</a>
+        </li>
+        <li class="product-item">
+          <div class="img">
+            <img src="/public/images/product-cate.jpg" alt="">
+          </div>
+          <div class="text">
+            <div class="title">铁锅系列</div>
+            <div class="desc">这里是系列的简介信息，这里是系列的简介信息，这里是系列的简介信息，这里是系列的简介</div>
+          </div>
+          <a href="product_view.html" class="more">SHOW MORE</a>
+        </li>
+
+      </ul>
+      <div class="pagination">
+        <a href="product_list.html" class="page-num"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+        <a href="product_list.html" class="page-num page-num-current">1</a>
+        <a href="product_list.html" class="page-num">2</a>
+        <a href="product_list.html" class="page-num">3</a>
+        <a href="product_list.html" class="page-num">4</a>
+        <a href="product_list.html" class="page-num"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+      </div>
+    </section>
+    <!-- 引入公共页尾 -->
+    <%= require("html-loader!../common/footer/index.html") %>
+</body>
+
+</html>
